@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+input{
+    margin: 10px;
+}
+
+
+input[type = "text"]{
+    width: 150px;
+    height: 50px;
+}
+
+input[type = button], input[type = reset]{
+    background-color: white;
+    border: 1px solid #aaa;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+input[type = button]:hover, input[type = reset]:hover{
+    background-color: gray;
+}
